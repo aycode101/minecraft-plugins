@@ -1,0 +1,21 @@
+name: HalfHeart
+main: com.dragotato.halfheart.HalfHeartMain
+version: 2.0
+commands: 
+  halfheart:
+    decription: sets player's health to half a heart.
+    usage: /<command>
+    permission: halfheart.halfheart
+    permission-message: You do not have <permission>
+  resethealth:
+    description: sets player's health to default (10 hearts).
+    usage: /<command>
+    permission: halfheart.resethealth
+    permission-message: You do not have <permission>
+permissions:
+  halfheart.halfheart:
+    description: allows halfheart command
+    default: true
+  halfheart.resethealth:
+    description: allows resethealth command
+    default: true
