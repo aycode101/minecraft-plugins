@@ -1,0 +1,4 @@
+name: SharedDamage
+main: com.dragotato.shareddamage.SharedDamageMain
+version: 1.0
+commands: 
