@@ -26,7 +26,6 @@ public class SharedDamageListener implements Listener {
 				for (Player player: Bukkit.getOnlinePlayers()) {
 					// Reduce rest of players's health by damage
 					if (player != p)
-						//player.damage(event.getDamage());
 						player.setHealth(player.getHealth() - event.getDamage());
 				}
 				
